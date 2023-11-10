@@ -10,6 +10,16 @@ b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 No, porque ambos son repositorios forkeados del de BETA, por lo que los cambios que realicen ALFA y GAMMA no pueden
 ser compartidos.
 
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+   No es posible sincronizar un repositorio forkeado al estado de otro repositorio forkeado, solo
+   se puede sincronizar al repositorio original
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+   el fork?
+   No, los datos no se perdían porque en nuestro caso no generó ningun conflicto, así que no
+   se perdio ningún dato al actualizar el fork
+   
+
 RESPUESTA E: (comandos antes de realizar el ultimo punto donde subimos las respuestas)
 
 JOUSE DAMACIO: 
