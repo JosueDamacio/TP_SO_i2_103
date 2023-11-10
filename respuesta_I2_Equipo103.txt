@@ -1,3 +1,11 @@
 Damacio Josue
 Faccini Trinidad
 Décima Bianca
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Se puede hacer de varias formas como se explica en esta documentacion
+ https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork, 
+nosotros elegimos hacerlo desde la UI web. Solamente apretando en el boton "Sync fork" y luego "Update branch"
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+No, porque ambos son repositorios forkeados del de BETA, por lo que los cambios que realicen ALFA y GAMMA no pueden
+ser compartidos.
