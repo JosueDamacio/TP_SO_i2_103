@@ -9,3 +9,46 @@ nosotros elegimos hacerlo desde la UI web. Solamente apretando en el boton "Sync
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 No, porque ambos son repositorios forkeados del de BETA, por lo que los cambios que realicen ALFA y GAMMA no pueden
 ser compartidos.
+
+RESPUESTA E: (comandos antes de realizar el ultimo punto donde subimos las respuestas)
+
+JOUSE DAMACIO: 
+git clone https://github.com/JosueDamacio/TP_SO_i2_103.git 
+(modifico nombre de archivos y agrego fork.txt)
+git add .
+git commit -m "beta crea repo"
+git push
+
+BIANCA DECIMA:
+git clone https://github.com/biancadecima/TP_SO_i2_103.git 
+git add . 
+git commit -m "gamma forkea y modifica" 
+git push
+
+TRINIDAD FACCINI:
+git clone https://github.com/trinifaccini/TP_SO_i2_103.git
+git add .
+git commit -m "Agrego info a archivo fork"
+git push
+
+JOUSE DAMACIO:
+(agrego archivo "NuevoDato.txt")
+git status
+git add .
+git commit -m "beta agrega Nuevo Dato"
+git push
+
+BIANCA DECIMA:
+*Sincronizacion y actualizacion de repositorio desde la UI Web 
+git pull
+
+TRINIDAD FACCINI:
+*Sincronizacion y actualizacion de repositorio desde la UI Web 
+git pull
+
+JOSUE DAMACIO:
+(agrego archivo "respuesta_I2_Equipo103.txt")
+git status
+git add .
+git commit -m "beta crea archivo respuestas"
+git push
